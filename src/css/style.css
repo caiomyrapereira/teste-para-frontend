@@ -11,7 +11,18 @@ html, body{
 
 
 .top{
+    border: 0px;
     height: 110px;
+    background: #3498DB;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
 }
 
 .content{
@@ -24,6 +35,11 @@ html, body{
 
 .bottom{
     height: 140px;
+}
+
+.row{
+    margin:0px;
+    height: 100%;
 }
 
 
