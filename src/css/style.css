@@ -1,0 +1,29 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.top, .content, .return, .bottom{
+    border:0.5px solid black;
+}
+
+
+.top{
+    height: 110px;
+}
+
+.content{
+    height: 2400px;
+}
+
+.return{
+    height: 45px;
+}
+
+.bottom{
+    height: 140px;
+}
+
+
