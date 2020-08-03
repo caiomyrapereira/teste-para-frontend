@@ -5,7 +5,7 @@ html, body{
     height: 100vh;
 }
 
-.top, .content, .return, .bottom{
+.content, .bottom{
     border:0.5px solid black;
 }
 
@@ -27,10 +27,23 @@ html, body{
 
 .content{
     height: 2400px;
+    background-color: #edf1f2;
 }
 
-.return{
+.returnTop{
     height: 45px;
+    background-color: #3199dc;
+}
+
+.returnTop p{
+    margin: 0px;
+    font-family: Helvetica;
+    color:white;
+}
+
+.returnTop a{
+    margin:0 20px 0 10px;
+    text
 }
 
 .bottom{
