@@ -5,7 +5,7 @@ html, body{
     height: 100vh;
 }
 
-.content, .bottom{
+.content{
     border:0.5px solid black;
 }
 
@@ -30,7 +30,7 @@ html, body{
     background-color: #edf1f2;
 }
 
-.returnTop{
+.returnTop {
     height: 45px;
     background-color: #3199dc;
 }
@@ -43,11 +43,22 @@ html, body{
 
 .returnTop a{
     margin:0 20px 0 10px;
-    text
 }
 
 .bottom{
-    height: 140px;
+    height: 150px;
+    background-color: #283c4f;
+    font-family: Helvetica;
+}
+
+.bottom p{
+    color:white;
+    margin: 0;
+}
+
+.bottom a{
+    color: white;
+    text-decoration: underline;
 }
 
 .row{
@@ -56,3 +67,11 @@ html, body{
 }
 
 
+@media(max-width:330px){
+    .top .logo img{
+        width: 180px;
+    }
+    .bottom{
+        height: auto;
+    }
+}
