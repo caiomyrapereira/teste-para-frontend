@@ -95,9 +95,6 @@ html, body{
     background: #19a5ea;
 }
 
-.content .row div{
-    border: 1px solid;
-}
 
 .content .highlight{
     height: auto;
@@ -146,6 +143,11 @@ html, body{
     
 }
 
+.contetn .divoltis .card{
+    border:0px;
+
+}
+
 .content .divoltis .card img{
     width: 100%;
     height: 100%;
@@ -163,6 +165,19 @@ html, body{
 
 .content .divoltis .card .card-body .card-text{
     color:#526270;
+}
+
+.content .divoltis .ads img{
+    max-width: 300px;
+    width:100%;
+    height: 600px;
+}
+
+.content .publi{
+    width: 300px;
+    margin: 120px auto 120px;
+    color:#9a9a9a;
+    font-size: 12px;
 }
 
 .returnTop {
