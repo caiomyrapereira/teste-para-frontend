@@ -136,6 +136,35 @@ html, body{
     width: 200px;
 } 
 
+.content .divoltis .divoltis-title{
+    margin: 20px 0px 10px 0px;
+    color:#2c3e50;
+}
+
+.content .divoltis .cards{
+    padding: 0px;
+    
+}
+
+.content .divoltis .card img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .divoltis .card .card-body{
+    height: 120px;
+}
+
+.content .divoltis .card .card-body .card-title{
+    padding-top: 10px;
+    margin: 0;
+    color:#2980b9;
+}
+
+.content .divoltis .card .card-body .card-text{
+    color:#526270;
+}
+
 .returnTop {
     height: 45px;
     background-color: #3199dc;
