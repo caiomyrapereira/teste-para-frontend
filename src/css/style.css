@@ -139,12 +139,16 @@ body{
 
 .content .divoltis .cards{
     padding: 0px;
+    margin-bottom: 14px;
     
 }
 
-.contetn .divoltis .card{
-    border:0px;
-
+.content .divoltis .card{
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 14px;
 }
 
 .content .divoltis .card img{
@@ -262,10 +266,24 @@ body{
 }
 
 
-@media(max-width:330px){
+@media(max-width:400px){
     .top .logo img{
         width: 180px;
     }
+
+    .content .media img{
+        width: 160px;
+        height: 175px;
+    }
+
+    .content .media .media-body h5{
+        font-size: 15px;
+    }
+    
+    .content .media .media-body p{
+        font-size: 13px;
+    }
+   
     .bottom{
         height: auto;
     }
