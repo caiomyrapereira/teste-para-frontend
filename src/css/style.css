@@ -311,7 +311,9 @@ body{
 
 
 @media(min-width:800px){
-
+    .top .nav-redesocial{
+        padding-right: 0px;
+    }
     .content{
         margin-bottom: 200px;
     }
@@ -326,6 +328,9 @@ body{
 }
 
 @media(min-width:1300px){
+    .top .nav-redesocial{
+        padding-right: 15px;
+    }
     .content{
         margin-bottom: 300px;
     }
