@@ -27,6 +27,18 @@ body{
 .logo{
     text-align: center;
 }
+
+.top .nav-redesocial{
+    text-align: right;
+    padding-right: 0px;
+    height: 70px;
+}
+
+.top .nav-redesocial .facebook{
+    margin-right: 15px;
+}
+
+
 .content .row div .au{
     height: 1000px;
    
@@ -173,7 +185,7 @@ body{
 .content .divoltis .ads .desktopPubl{
     position: absolute;
     top: -20px;
-    left: 250px;
+    left: 275px;
     color:#9a9a9a;
     font-size: 12.5px;
 }
@@ -297,9 +309,9 @@ body{
     }
 }
 
-/* --- resposivel --- */
 
 @media(min-width:800px){
+
     .content{
         margin-bottom: 200px;
     }

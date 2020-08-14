@@ -1679,6 +1679,13 @@ pre code {
             flex: 0 0 25%;
     max-width: 25%;
   }
+  .col-lg-3-5{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 29%;
+        -ms-flex: 0 0 29%;
+            flex: 0 0 29%;
+    max-width: 29%;
+  }
   .col-lg-4 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
@@ -1686,6 +1693,16 @@ pre code {
             flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+
+  .col-lg-4-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 37%;
+        -ms-flex: 0 0 37%;
+            flex: 0 0 37%;
+    max-width: 37%;
+  }
+
+
   .col-lg-5 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 41.666667%;
@@ -6318,7 +6335,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   .d-lg-none {
     display: none !important;
   }
