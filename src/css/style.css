@@ -288,3 +288,30 @@ body{
         height: auto;
     }
 }
+
+@media(min-width:800px){
+    .content{
+        margin-bottom: 200px;
+    }
+
+    .content .cards .card{
+        height: 325px;
+    }
+    
+    .content .cards .card .card-img{
+        height: 220px;
+    }
+}
+
+@media(min-width:1300px){
+    .content{
+        margin-bottom: 300px;
+    }
+    .content .cards .card{
+        height: 325px;
+    }
+
+    .content .cards .card .card-img{
+        height: 220px;
+    }
+}
