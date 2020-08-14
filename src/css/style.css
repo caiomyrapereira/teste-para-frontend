@@ -170,6 +170,14 @@ body{
     color:#526270;
 }
 
+.content .divoltis .ads .desktopPubl{
+    position: absolute;
+    top: -20px;
+    left: 250px;
+    color:#9a9a9a;
+    font-size: 12.5px;
+}
+
 .content .divoltis .ads img{
     max-width: 300px;
     width:100%;
@@ -288,6 +296,8 @@ body{
         height: auto;
     }
 }
+
+/* --- resposivel --- */
 
 @media(min-width:800px){
     .content{
