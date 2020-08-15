@@ -13,6 +13,8 @@ body{
     font-family: Helvetica;
 }
 
+/*--- Header ---*/
+
 .top{
     border: 0px;
     height: 110px;
@@ -43,6 +45,8 @@ body{
     height: 1000px;
    
 }
+
+/*--- Main ---*/
 
 .content{
     height: auto;
@@ -106,6 +110,10 @@ body{
     background: #19a5ea;
 }
 
+.content  .divoltis-title, .highlight-title{
+    margin: 25px 15px 20px 15px;
+    color:#505253;
+}
 
 .content .highlight{
     height: auto;
@@ -144,10 +152,6 @@ body{
     width: 200px;
 } 
 
-.content .divoltis .divoltis-title{
-    margin: 20px 0px 10px 0px;
-    color:#2c3e50;
-}
 
 .content .divoltis .cards{
     padding: 0px;
