@@ -84,21 +84,35 @@ body{
     font-size: 24px;
 }
 
+.content .carousel .carousel-control-next, .carousel-control-prev{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 30px;
+    top: 40%;
+}
+
+.content .carousel .carousel-control-next{
+    right: -15px;
+}
+
+.content .carousel .carousel-control-prev{
+    left:-15px;
+}
+
+.content .carousel .carousel-control-next img, .carousel-control-prev img{
+    margin-top: 10px;
+}
 
 .content .carousel .carousel-item{
     height: 270px;
-}
-
-
-
-.content .carousel .carousel-control-prev, .carousel-control-next{
-    display: none;
 }
 
 .content  .carousel-indicators {
     margin: 0;
     bottom: 0px;
 }
+
 .content  .carousel-indicators  li{
     background: #9b9b9b;
     height: 10px;
@@ -268,6 +282,8 @@ body{
     margin:0 20px 0 10px;
 }
 
+/*----*/
+
 .bottom{
     height: 150px;
     background-color: #283c4f;
@@ -314,14 +330,37 @@ body{
 }
 
 
-@media(min-width:800px){
+@media screen and (min-width:800px) and (max-width:1299px) {
     .top .nav-redesocial{
         padding-right: 0px;
     }
     .content{
         margin-bottom: 200px;
     }
-
+    
+    .content .p1 {
+        height: 600px;
+    }
+    .content .carousel .carousel-inner {
+        height: 430px;
+    }
+    .content .carousel .carousel-item {
+        height: 430px;
+    }
+    .content .carousel .carousel-caption {
+        height: 200px;
+        margin-left:25px;
+    }
+    .content .carousel .carousel-caption h6 {
+        height: 30px;
+    }
+    .content .carousel .carousel-caption p {
+        color: white;
+        margin-top:10px;
+    }
+    .content #carouselExampleIndicators{
+        height: 470px;
+    }
     .content .cards .card{
         height: 325px;
     }
@@ -331,12 +370,35 @@ body{
     }
 }
 
-@media(min-width:1300px){
+@media screen and (min-width:1300px){
     .top .nav-redesocial{
         padding-right: 15px;
     }
     .content{
         margin-bottom: 300px;
+    }
+    .content .p1 {
+        height: 600px;
+    }
+    .content .carousel .carousel-inner {
+        height: 450px;
+    }
+    .content .carousel .carousel-item {
+        height: 450px;
+    }
+    .content .carousel .carousel-caption {
+        height: 200px;
+        margin-left:25px;
+    }
+    .content .carousel .carousel-caption h6 {
+        height: 30px;
+    }
+    .content .carousel .carousel-caption p {
+        color: white;
+        margin-top:10px;
+    }
+    .content #carouselExampleIndicators{
+        height: 470px;
     }
     .content .cards .card{
         height: 325px;
